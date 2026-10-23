@@ -18,3 +18,7 @@ GOOD_3 = {"invoice_id": "INV-2077", "vendor": "Northwind Parts",
 
 # 120 + 80 + 50 + 47.50 != 279.50
 BAD_3 = dict(GOOD_3, total=279.50)
+
+# Fields used by the duplicate check (currency_path, date_path)
+GOOD_DUP = dict(GOOD, currency="USD", invoice_date="2026-10-20")
+INVOICE_TEXT_DUP = INVOICE_TEXT + " Currency USD. Invoice date 2026-10-20."
