@@ -1,0 +1,7 @@
+{
+  "name": "screwtape-examples-ts",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "tsx checkPayment.ts", "typecheck": "tsc --noEmit" },
+  "devDependencies": { "@types/node": "^22.0.0", "tsx": "^4.19.0", "typescript": "^5.6.0" }
+}

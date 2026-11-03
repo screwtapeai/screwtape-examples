@@ -1,0 +1,4 @@
+# python/ needs nothing beyond the standard library.
+langchain-core>=0.3      # langchain/
+crewai>=0.80             # crewai/
+openai-agents>=0.2       # openai-agents/
